@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
 <html>
 
@@ -10,32 +10,30 @@
 		<link rel="stylesheet" media="all" href="css/style.css" />
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,900|Ubuntu:400,700' rel='stylesheet' type='text/css'>
 		<script src="scripts/respond.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="javascript/javascript.js"></script>
 		
 	</head>
 
-	<body>
+	<body id="top">
 		<div class="navbar_header">
-			
 				<ul class="navbar container">
-					<li class="navbar_item col span_3"><a href="" title="">about</a></li>
-					<li class="navbar_item col span_3"><a href="" title="">portfolio</a></li>
+					<li class="navbar_item col span_3"><a href="#about_background" title="" id="js_about_link">about</a></li>
+					<li class="navbar_item col span_3"><a href="#portfolio_background" title="" id="js_portfolio_link">portfolio</a></li>
 					<li class="col span_4">
 						<div class="logocircle">
-								<a href="" title=""><img src="images/logo.png" alt=""></a>
+								<a href="#top" title="" class="js_to_top"><img src="images/logo.png" alt=""></a>
 						</div>
 					</li>
-					<li class="navbar_item col span_3"><a href="" title="">contact</a></li>
-					<li class="navbar_item col span_3"><a href="" title="">blog</a></li>
+					<li class="navbar_item col span_3"><a href="#contact_background" title="" id="js_contact_link">contact</a></li>
+					<li class="navbar_item col span_3"><a href="#blog_background" title="" id="js_blog_link">blog</a></li>
 				</ul>
 			
 		</div>
 		<div id="home">
 			<div class="home_dashed">
 				<div class="container">
-					<div class="wordlogo">
-						<img src="images/wordlogo.png" alt="Silicon Alley Venture Partners">
-						<span>Silicon Alley Venture Partners</span>
-					</div>
+
 					<div class="rotator">
 					</div>
 				</div>
@@ -45,7 +43,7 @@
 		<div id="about_background">
 			<div id="about_background2">
 				<div class="container">
-					<a href="" title=""><img src="images/about_top_button.png"></a>	
+					<a href="#top" title="" class="js_to_top"><img src="images/about_top_button.png"></a>	
 					<div class="row gutters about_header">
 						<div class="col span_8 header about_right_border">
 							<h1>about</h1>
@@ -81,7 +79,7 @@
 		<div id="portfolio_background">
 			<div id="portfolio_background2">
 				<div class="container">
-					<a href="" title=""><img src="images/portfolio_top_button.png"></a>
+					<a href="#top" title="" class="js_to_top"><img src="images/portfolio_top_button.png"></a>
 					<div class="portfolio">
 						<div class="header">
 							<h1>portfolio</h1>
@@ -117,7 +115,7 @@
 		<div id="contact_background">
 			<div id="contact_background2">
 				<div class="container">
-					<a href="" title=""><img src="images/contact_top_button.png"></a>
+					<a href="#top" title="" class="js_to_top"><img src="images/contact_top_button.png"></a>
 					<div class="contact clr">
 						<div class="col span_10 header">
 							<h1>contact</h1>
@@ -201,7 +199,7 @@
 		</div>
 		<div id="blog_background">
 			<div class="container">
-				<a href="" title=""><img src="images/blog_top_button.png"></a>
+				<a href="#top" title="" class="js_to_top"><img src="images/blog_top_button.png"></a>
 				<div class="headerblog clr">
 					<div class="col span_8 header blog_borders">
 						<h1>blog</h1>
